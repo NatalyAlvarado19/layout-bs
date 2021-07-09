@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Layout Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+      <!-- FILA 1: BARRA DE NAV -->
+        <div class="row">
+            <div class="border border-4 col">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!--FILA 2: CARRUSEL SLIDER-->
+        <div class="row">
+            <div class="border border-4 col">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://www.salud.mapfre.es/media/2020/12/robots-en-medicina-1100x408.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://www.salud.mapfre.es/media/2020/12/robots-en-medicina-1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://www.generacionyoung.com/media/2020/02/01-Global-robot-Expo-1100x408.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <!-- FILA 3: SECTION Y ASIDE -->
+        <div class="row">
+          <!-- COLUMNA 1: SECTION -->
+            <div class="border border-4 col-12 col-lg-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Robots Donde Menos los Esperamos
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Pieles inteligentes</strong>
+
+                          <br>La flexibilidad de la robótica blanda la hace ideal para la interacción directa con el tejido biológico. Las interacciones blando-blando entre un robot de este tipo y un ser humano son, por naturaleza, mucho más seguras que la interfaz rígido-blando que imponen los robots rígidos convencionales. Una segunda piel robótica blanda de tipo funcional puede ofrecer muchas ventajas inasequibles para un revestimiento convencional. Por otra parte, si explotamos las tecnologías de actuación blanda fibrosa como el actuador de bobina de nailon y los compuestos de aleación-polímero con memoria de forma , podremos tejer músculos artificiales en el interior de las telas.
+                            
+                          <strong><br>Dispositivos de asistencia</strong>
+                            
+                          <br>¿Por qué usar una silla de ruedas si se puede volver a caminar con unos pantalones impulsores basados en robótica blanda?.
+                            
+                          <strong><br>Dispositivos médicos</strong>
+                            
+                          <br>Dado que la robótica blanda es tan adecuada para la interacción con tejido biológico, no es descabellado imaginar que un dispositivo de este tipo se pueda implantar en el cuerpo e interactuar físicamente con sus estructuras internas. Esta robótica blanda biointegrada se encuentra en fase de desarrollo y se espera que llegue al ámbito clínico en los próximos diez a quince años. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Ventajas y Desventajas de la Robótica
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          
+                          Los últimos avances en ingeniería robótica han logrado que se puedan implementar en cualquier puesto de trabajo. Son especialmente interesantes para abaratar los costes de producción, pero además también permiten ser empleados en lugares de riesgo o que generen sobrecargas musculares a los operarios, lo que reduce las bajas laborales y la siniestrabilidad.
+
+                          <br>Otra característica de los robots es que trabajan con una precisión que no se ve alterada por el cansancio, el sueño, turnos de trabajo o enfermedades, pero es que además no necesitan vacaciones ni “de momento” hay que pagar impuestos por ellos.</br>
+
+                          <br>Si bien es cierto que los robots industriales pueden trabajar 24/7, al igual que sucede con un operario, los robots necesitan que se les haga un mantenimiento preventivo y paliativo.</br>
+
+                          <br>El mayor inconveniente de la implantación de dispositivos robotizados a los puestos de trabajo es que va seguir causando en la próxima década una destrucción de empleo masiva, principalmente en el sector industrial y servicios. Sin duda es una realidad difícil de ocultar, aunque es igual de evidente que se van a generar millones de nuevos puestos de trabajo en torno a la robótica.</br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- COLUMNA 2: ASIDE -->
+            <div class="border border-4 col-12 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/anuncio.png" class="card-img-top" alt="...">
+                <!--<div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>-->
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/subway.jpg" class="card-img-top" alt="...">
+                <!--<div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>-->
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://cazaofertas.com.mx/wp-content/uploads/2018/02/Promocion-La-Feria-de-San-Valentin-pases-platino-y-alimentos-para-2-por-499.jpg" class="card-img-top" alt="...">
+                <!--<div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>-->
+              </div>
+        </div>
+        <!-- FILA 4: FOOTER -->
+        <div class="row">
+            <div class="border border-4 col">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Correo Electrónico</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
